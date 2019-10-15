@@ -1,0 +1,47 @@
+@import "~@/assets/scss/pxToRem.scss";
+.input-number{
+  height:rem(60);
+  display: flex;
+  border:rem(2) solid #e6e5e5;
+  border-radius:rem(30);
+  align-items: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:0 rem(6);
+
+  &_subtract,
+  &_add
+  {
+    background-color: #f2f2f2;
+    width:rem(44);
+    height:rem(44);
+    line-height:rem(44);
+    border-radius: 50%;
+    text-align: center;
+  }
+  &_subtract{
+    color: #c5c5c5;
+    font-size:rem(46);
+  }
+  &_add{
+    color:#1b1b1b;
+  }
+  &_num{
+    font-size:rem(30);
+    color:#1b1b1b;
+    text-align: center;
+    flex: 1;
+    padding:0 rem(10);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+		input{
+			text-align: center;
+			line-height: 1;
+			width: 100%;
+			outline: none;
+			border: none;
+		}
+  }
+}
